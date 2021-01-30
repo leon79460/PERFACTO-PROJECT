@@ -1,0 +1,567 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /********** code start************* */
+
+
+  .top-header ul li a {
+  font-size: 5px;
+  line-height: 10px;
+  font-weight: 700;
+  /* margin-right: 7px; */
+  color: #ababab;
+  text-decoration: none;
+  transition: 1s;
+}
+.fa-home:before {
+  content: "\f015";
+  font-size: 13px;
+}
+.top-header ul li .fa {
+  margin-right: 5px;
+  font-size: 11px;
+  margin-left: -4px;
+}
+.social-icons li a:hover, .social-icons li a:focus{
+  color: #31aae2; 
+}
+.top-header ul {
+  width: 100%;
+  display: block;
+  /* margin: 3px; */
+  margin-left: 83px;
+}
+.main-menu .navbar-brand img {
+  vertical-align: middle;
+  width: 120px;
+}
+
+.style .inner-style h1 {
+  font-size: 27px;
+  line-height: 37px;
+  color: #444444;
+  font-weight: 600;
+  padding: 30px 0px;
+}
+.style .inner-style p {
+  font-size: 11px;
+  color: #444444;
+  font-weight: 600;
+  margin-bottom: -75px;
+}
+/* header end */
+
+/* banner start */
+
+.style {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.service .inner-service {
+  width: 100%;
+  text-align: center;
+  padding: 40px 16px;
+}
+
+/* ******* service end********* */
+
+/* ********* history start*********** */
+.history-section .inner-history h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.history-section .inner-history p {
+  font-size: 8px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.history-section .inner-history .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: rgb(173 148 148);
+  padding: 6px 19px;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+.inner-pic img, svg {
+  vertical-align: middle;
+  width: 64%;
+  margin-left: 51px;
+  margin-top: 20px;
+}
+/* contain start */
+.contain .inner-contain h2 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 35px;
+  margin-left: 50px;
+}
+.contain .inner-contain p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 21px;
+  margin-left: 50px;
+}
+.contain .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: rgb(173 148 148);
+  padding: 10px 26px;
+  margin-left: 120px;
+  /* margin-top: 50px; */
+}
+/* contain end */
+
+/* footer start */
+
+.footer .main-footer .footer-icons li .fa {
+  /* margin: 0px 40px; */
+  font-size: 21px;
+  border: 1px solid #454648;
+  border-radius: 50%;
+  padding: 5px;
+  color: #454648;
+}
+.footer-icons li a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: -52px;
+  color: #31aae2;
+  transition: 2s;
+}
+.main-footer {
+  width: 100%;
+  padding-top: 30px;
+  margin-left: -70px;
+}
+.inner-footer-icons li a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-left: 20px;
+  color: #969595;
+  transition: 1s;
+  text-decoration: none;
+}
+.inner-footer-text h3 {
+  color: #969595;
+  margin-left: 164px;
+  transition: 1s;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+/* *************************************
+ *************code end*******************
+************************************* */
+
+}
+
+
+
+
+
+ 
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+ */
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /********** code start************* */
+
+.top-header ul li a {
+  font-size: 8px;
+  line-height: 16px;
+  font-weight: 700;
+  /* margin-right: 7px; */
+  color: #ababab;
+  text-decoration: none;
+  transition: 1s;
+}
+.fa-home:before {
+  content: "\f015";
+  font-size: 13px;
+}
+.top-header ul li .fa {
+  margin-right: 5px;
+  font-size: 15px;
+  margin-left: 18px;
+}
+.social-icons li a:hover, .social-icons li a:focus{
+  color: #31aae2; 
+}
+.top-header ul {
+  width: 100%;
+  display: block;
+  /* margin: 3px; */
+  margin-left: 2px;
+}
+.main-menu .navbar-brand img {
+  vertical-align: middle;
+  width: 165px;
+  margin-left: 14px;
+}
+.navbar-light .navbar-toggler {
+color: rgb(28 234 234 / 55%);
+border-color: rgb(43 172 202 / 10%);
+font-size: 33px;
+}
+
+.style .inner-style h1 {
+  font-size: 33px;
+  line-height: 43px;
+  color: #444444;
+  font-weight: 700;
+  padding: 30px 0px;
+}
+.style .inner-style p {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 600;
+  margin-bottom: -75px;
+}
+/* header end */
+
+/* banner start */
+
+.style {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.service .inner-service {
+  width: 100%;
+  text-align: center;
+  padding: 40px 16px;
+}
+.service .inner-service h3 {
+  font-size: 23px;
+  line-height: 33px;
+  color: #444444;
+  font-weight: 800;
+  padding: 10px 0px;
+}
+.service .inner-service p {
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #999999;
+}
+
+/* ******* service end********* */
+
+/* history start */
+.history-section .inner-history h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  /* margin-left: 100px; */
+  padding-left: 30px;
+}
+.history-section .inner-history p {
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 400;
+  margin-left: 100px;
+  padding: 13px 0px;
+}
+.inner-pic img, svg {
+  vertical-align: middle;
+  width: 76%;
+  margin-left: 96px;
+  margin-top: 38px;
+}
+/* history end */
+
+/* contain start */
+.contain .inner-contain h2 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 45px;
+}
+.contain .inner-contain p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 27px;
+}
+.contain .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: rgb(173 148 148);
+  padding: 10px 45px;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+/* contain end */
+
+/* footer start */
+.main-footer {
+  width: 100%;
+  padding-top: 30px;
+  margin-left: -81px;
+}
+.footer-icons li a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: -59px;
+  color: #31aae2;
+  transition: 2s;
+}
+.footer .main-footer .footer-icons li .fa {
+  margin: 0px 40px;
+  font-size: 30px;
+  border: 1px solid #454648;
+  border-radius: 50%;
+  padding: 14px;
+  color: #454648;
+}
+.inner-footer-text h3 {
+  color: #969595;
+  margin-left: 200px;
+  transition: 1s;
+  font-size: 27px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.inner-footer-icons li a {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: 30px;
+  color: #969595;
+  transition: 1s;
+  text-decoration: none;
+}
+
+
+/* **********                  ***                *************
+***********                 code end           *****************
+*************                  ***                   ********** */
+
+    
+ }
+  
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /************** code start**************/
+
+.top-header ul li a {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  /* margin-right: 7px; */
+  color: #ababab;
+  text-decoration: none;
+  transition: 1s;
+}
+.fa-home:before {
+  content: "\f015";
+  font-size: 24px;
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+  margin-left: 63px;
+}
+.fa-skype:before {
+  content: "\f17e";
+  margin: 0px 30px;
+}
+.fa-pinterest-p:before {
+  content: "\f231";
+  margin: 0px 30px;
+}
+.fa-apple:before {
+  content: "\f179";
+  margin: 0px 50px;
+}
+.top-header ul li .fa {
+  margin-right: 6px;
+  font-size: 24px;
+  margin-left: 18px;
+}
+.social-icons li a:hover, .social-icons li a:focus{
+  color: #31aae2; 
+}
+.top-header ul {
+  width: 100%;
+  display: block;
+  /* margin: 3px; */
+  margin-left: 2px;
+}
+.main-menu .navbar-brand img {
+  vertical-align: middle;
+  width: 165px;
+  margin-left: 14px;
+}
+.navbar-light .navbar-toggler {
+color: rgb(28 234 234 / 55%);
+border-color: rgb(43 172 202 / 10%);
+font-size: 33px;
+}
+
+.style .inner-style h1 {
+  font-size: 49px;
+  line-height: 45px;
+  color: #444444;
+  font-weight: 800;
+  padding-top: 56px;
+}
+.style .inner-style p {
+  font-size: 23px;
+  color: #444444;
+  font-weight: 400;
+  padding: 53px 0px;
+}
+
+
+/* header end */
+
+/* banner start */
+.slider .carousel-inner .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: #fff;
+  padding: 10px 45px;
+  margin-left: -337px;
+}
+.slider .carousel-inner h2 {
+  font-size: 41px;
+  line-height: 51px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-transform: capitalize;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.style {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.service .inner-service {
+  width: 100%;
+  text-align: center;
+  padding: 40px 16px;
+}
+.service .inner-service h3 {
+  font-size: 33px;
+  line-height: 43px;
+  color: #444444;
+  font-weight: 800;
+  padding: 18px 0px;
+}
+.service .inner-service p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #999999;
+}
+
+/* ******* service end********* */
+
+/* history start */
+.history-section .inner-history h2 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 800;
+}
+.history-section .inner-history p {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.history-section .inner-history .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: rgb(173 148 148);
+  padding: 10px 45px;
+}
+.inner-pic img, svg {
+  vertical-align: middle;
+  width: 106%;
+  margin-left: 70px;
+  margin-top: 130px;
+}
+.contain .btn-info {
+  background: transparent;
+  transition: 1s;
+  color: rgb(173 148 148);
+  padding: 10px 45px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+/* .footer-icons li a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: -87px;
+  color: #31aae2;
+  transition: 2s;
+} */
+.footer .main-footer .footer-icons li .fa {
+  margin: 1px 28px;
+  font-size: 31px;
+  /* border: 1px solid #454648; */
+  /* border-radius: 0%; */
+  padding: 12px;
+  color: #454648;
+}
+.footer-icons li a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: -61px;
+  color: #31aae2;
+  transition: 2s;
+}
+.inner-footer-text h3 {
+  color: #969595;
+  margin-left: 178px;
+  transition: 1s;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 70px;
+}
+.inner-footer-icons li a {
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-left: 21px;
+  color: #969595;
+  transition: 1s;
+  text-decoration: none;
+}
+
+
+
+/* ********************** code end*************************** */
+
+
+    
+  }
